@@ -1,0 +1,30 @@
+{
+    "name": "hanier/zipkin",
+    "type": "library",
+    "authors": [
+        {
+            "name": "hanierming",
+            "email": "hanierming@163.com"
+        }
+    ],
+    "description": "Swoft-Zipkin Composer",
+    "require": {
+        "jcchavezs/zipkin-opentracing": "^0.1.2",
+        "psr/http-server-handler": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hanier\\Zipkin\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.laravel-china.org"
+        }
+    },
+    "config": {
+        "secure-http": false
+    }
+}
