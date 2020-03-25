@@ -17,6 +17,7 @@
 ```php
 
 执行composer install --prefer-dist
+```
 *一定要加上--prefer-dist参数，这样加载的包里面才没有.git目录*
 ## 安装组件
 
@@ -25,28 +26,28 @@
 **如果之前没有安装过组件，那每个组件前两条命令只需要执行一次，之后再更新组件直接使用第三条命令pull即可。**
 
 #### http-client组件
-```
+```php
 rm -rf vendor/swoft/http-client
 git subtree add --prefix=vendor/swoft/http-client git@github.com:hanierming/swoft-http-client.git master --squash
 git subtree pull --prefix=vendor/swoft/http-client git@github.com:hanierming/swoft-http-client.git master --squash
 ```
 
 #### db组件
-```
+```php
 rm -rf vendor/swoft/db
 git subtree add --prefix=vendor/swoft/db git@github.com:hanierming/swoft-db.git master --squash
 git subtree pull --prefix=vendor/swoft/db git@github.com:hanierming/swoft-db.git master --squash
 ```
 
 #### redis组件
-```
+```php
 rm -rf vendor/swoft/redis
 git subtree add --prefix=vendor/swoft/redis git@github.com:hanierming/swoft-redis.git master --squash
 git subtree pull --prefix=vendor/swoft/redis git@github.com:hanierming/swoft-redis.git master --squash
 ```
 
 #### opentracing组件
-```
+```php
 rm -rf vendor/opentracing/opentracing/
 
 git subtree add --prefix=vendor/opentracing/opentracing git@github.com:hanierming/swoft-opentracing.git master --squash
