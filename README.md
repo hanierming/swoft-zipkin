@@ -1,4 +1,4 @@
-[TOC]
+本项目基于masixun71/swoft-zipkin[https://github.com/masixun71/swoft-zipkin]进行修改，免去了自己修改swoft自带组件的步骤。之前是在私有gitlab以及项目中部署，如有任何问题可发issue或者联系hanierming@163.com
 
 # 安装composer以及组件
 
